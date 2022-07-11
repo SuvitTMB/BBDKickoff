@@ -426,7 +426,7 @@ function OpenLink(page) {
     str += '<center>';
     str += '<div class="btn-t3" style="margin-top:25px;">VDO แนะนำการแข่งขัน</div>';
     str += '<video id="video" style="max-width:450px;width:99%;margin:25px auto 5px auto;" controls="controls" autoplay>';
-    str += '<source src="./vdo/about_game.mp4" type="video/mp4"></video>';
+    str += '<source src="https://firebasestorage.googleapis.com/v0/b/retailproject-6f4fc.appspot.com/o/vdo%2FBBDLeague.mp4?alt=media&token=62eb01b8-8c1f-4dca-955d-221dc4bba317" type="video/mp4"></video>';
     str += '<div class="btn-t2" onclick="CloseVDO()" style="margin-top:15px;">ปิดวิดีโอ</div>';
     str += '</center><div class="clr" style="height: 25px;"></div>';
     $("#DisplayVDO").html(str);  
