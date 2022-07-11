@@ -436,7 +436,7 @@ function OpenLink(page) {
   } else if(page==6) {
     location.href = 'notwork.html';
   }
-}
+} 
 
 
 function CloseAll() {
