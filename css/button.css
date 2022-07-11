@@ -542,6 +542,27 @@
 }
 
 
+.btn-t8, a.btn-t8 {
+    font-family: 'ekachon-regular', sans-serif;
+    display: inline-block;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top:10px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: solid #ff0000 1px;
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 11px;
+    min-width:140px;
+}
+
+
 .btn-t9, a.btn-t9 {
     font-family: 'ekachon-regular', sans-serif;
     display: inline-block;
