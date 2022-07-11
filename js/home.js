@@ -1,6 +1,8 @@
 var DoneSurvey = 0;
 var ShowScore = 0;
 
+
+
 $(document).ready(function () {
   if(sessionStorage.getItem("EmpID_Kickoff")==null) { location.href = "index.html"; }
   Connect_DB();
@@ -434,9 +436,10 @@ function OpenLink(page) {
   } else if(page==5) { // เอกสารอบรม
     location.href = 'rhpoint.html';
   } else if(page==6) {
-    location.href = 'notwork.html';
+    location.href = 'achievement.html';
   }
-} 
+  //location.href = 'notwork.html';
+}
 
 
 function CloseAll() {

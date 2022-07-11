@@ -1,7 +1,7 @@
 var i = 0;
 var EidProfile = "";
 var dateString = "";
-
+var sResultLogin ="ไม่สำเร็จ"
 
 
 $(document).ready(function () {
@@ -36,7 +36,7 @@ $(document).ready(function () {
   str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
   $("#MyProfile").html(str);  
   Connect_DB();
-  */  
+  */
 
   main();
 });
@@ -88,8 +88,10 @@ function Connect_DB() {
   };
   firebase.initializeApp(firebaseConfig);
   dbProfile = firebase.firestore().collection("CheckProfile");
+  dbLeagueMember = firebase.firestore().collection("BBD_LeagueMember");
   dbBBDKickoff = firebase.firestore().collection("BBD_Kickoff");
   dbBBDRH = firebase.firestore().collection("BBD_RH");
+  dbBBDlog = firebase.firestore().collection("BBD_Log");
   CheckData();
 }
 
@@ -104,10 +106,7 @@ function CheckData() {
         EidProfile = doc.id;
         sessionStorage.setItem("EmpID_Kickoff", doc.data().empID);
         sessionStorage.setItem("EmpName_Kickoff", doc.data().empName);
-        CheckZone();
-        //CheckRH();
-        document.getElementById('loading').style.display='none';
-        document.getElementById('OldSurvey').style.display='block';
+        CheckMember();
       } else {
         location.href = "https://liff.line.me/1655966947-KxrAqdyp";
       }
@@ -117,6 +116,47 @@ function CheckData() {
     }
   });
 }
+
+
+var EidUpdateLogin = "";
+var CountLogin = 0;
+var CheckFound = 0;
+function CheckMember() {
+  //alert(parseFloat(sessionStorage.getItem("EmpID_Kickoff")));
+  dbLeagueMember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID_Kickoff")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      CheckFound = 1;
+      EidUpdateLogin = doc.id;
+      CountLogin = doc.data().CountIN;
+      sResultLogin ="สำเร็จ"
+      UpdateLogin();
+      CheckZone();
+      CheckRH();
+      UpdateBBDLog();
+      document.getElementById('loading').style.display='none';
+      document.getElementById('OldSurvey').style.display='block';
+    });
+    if(CheckFound==0) {
+      UpdateBBDLog();
+      document.getElementById('loading').style.display='none';
+      document.getElementById('NoService').style.display='block';
+    }
+  });
+}
+
+
+function UpdateLogin() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbLeagueMember.doc(EidUpdateLogin).update({
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate,
+    CountIN : parseFloat(CountLogin)+1
+  });    
+}
+
 
 var EidKickoff = "";
 function CheckZone() {
@@ -137,6 +177,42 @@ function UpdateZone() {
    });    
 }
 
+
+var EidRH = "";
+function CheckRH() {
+  dbBBDRH.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID_Kickoff")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      EidRH = doc.id;
+      UpdateRH();
+    });
+  });
+}
+
+function UpdateRH() {
+   dbBBDRH.doc(EidRH).update({
+     LineName : sessionStorage.getItem("LineName"),
+     LinePicture : sessionStorage.getItem("LinePicture")
+   });    
+}
+
+
+
+function UpdateBBDLog() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbBBDlog.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID_Kickoff"),
+    EmpName : sessionStorage.getItem("EmpName_Kickoff"),
+    ResultLogin : sResultLogin,
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate
+  });
+}
 
 
 function NewDate() {
