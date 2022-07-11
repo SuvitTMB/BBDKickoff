@@ -1,8 +1,6 @@
 var DoneSurvey = 0;
 var ShowScore = 0;
 
-
-
 $(document).ready(function () {
   if(sessionStorage.getItem("EmpID_Kickoff")==null) { location.href = "index.html"; }
   Connect_DB();
