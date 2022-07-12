@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 
 async function main() {
-  await liff.init({ liffId: "1655966947-EjZeO6yr" });
+  await liff.init({ liffId: "1656865573-A6GPPQqb" });
   document.getElementById("isLoggedIn").append(liff.isLoggedIn());
   if(liff.isLoggedIn()) {
     getUserProfile();
@@ -157,90 +157,6 @@ function UpdateBBDLog() {
     LogTimeStamp : TimeStampDate
   });
 }
-
-
-/*
-var EidUpdateLogin = "";
-var CountLogin = 0;
-var CheckFound = 0;
-function CheckMember() {
-  //alert(parseFloat(sessionStorage.getItem("EmpID_Kickoff")));
-  dbLeagueMember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID_Kickoff")))
-  .limit(1)
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      CheckFound = 1;
-      EidUpdateLogin = doc.id;
-      CountLogin = doc.data().CountIN;
-      sResultLogin ="สำเร็จ"
-      UpdateLogin();
-      CheckZone();
-      CheckRH();
-      UpdateBBDLog();
-      document.getElementById('loading').style.display='none';
-      document.getElementById('OldSurvey').style.display='block';
-    });
-    if(CheckFound==0) {
-      UpdateBBDLog();
-      document.getElementById('loading').style.display='none';
-      document.getElementById('NoService').style.display='block';
-    }
-  });
-}
-
-
-function UpdateLogin() {
-  NewDate();
-  var TimeStampDate = Math.round(Date.now() / 1000);
-  dbLeagueMember.doc(EidUpdateLogin).update({
-    LogDateTime : dateString,
-    LogTimeStamp : TimeStampDate,
-    CountIN : parseFloat(CountLogin)+1
-  });    
-}
-
-
-var EidKickoff = "";
-function CheckZone() {
-  dbBBDKickoff.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID_Kickoff")))
-  .limit(1)
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      EidKickoff = doc.id;
-      UpdateZone();
-    });
-  });
-}
-
-function UpdateZone() {
-   dbBBDKickoff.doc(EidKickoff).update({
-     LineName : sessionStorage.getItem("LineName"),
-     LinePicture : sessionStorage.getItem("LinePicture")
-   });    
-}
-
-
-var EidRH = "";
-function CheckRH() {
-  dbBBDRH.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID_Kickoff")))
-  .limit(1)
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      EidRH = doc.id;
-      UpdateRH();
-    });
-  });
-}
-
-function UpdateRH() {
-   dbBBDRH.doc(EidRH).update({
-     LineName : sessionStorage.getItem("LineName"),
-     LinePicture : sessionStorage.getItem("LinePicture")
-   });    
-}
-
-*/
-
 
 
 function NewDate() {
