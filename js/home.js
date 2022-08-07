@@ -1,1 +1,480 @@
-(function(_0x11272e,_0xc8d856){var _0x289dbf=_0x26df,_0x355092=_0x11272e();while(!![]){try{var _0x40e3fd=parseInt(_0x289dbf(0x177))/0x1+-parseInt(_0x289dbf(0x178))/0x2+-parseInt(_0x289dbf(0x126))/0x3+-parseInt(_0x289dbf(0x151))/0x4+-parseInt(_0x289dbf(0x179))/0x5*(parseInt(_0x289dbf(0x173))/0x6)+-parseInt(_0x289dbf(0x1ab))/0x7*(parseInt(_0x289dbf(0x19a))/0x8)+parseInt(_0x289dbf(0x134))/0x9*(parseInt(_0x289dbf(0x199))/0xa);if(_0x40e3fd===_0xc8d856)break;else _0x355092['push'](_0x355092['shift']());}catch(_0x3af2c0){_0x355092['push'](_0x355092['shift']());}}}(_0x31d4,0x33344));function _0x31d4(){var _0x40bc70=['Success_2','asc','\x22)\x27><div\x20class=\x27bar-info\x20rsoc8\x27\x20data-total=','<div\x20class=\x22btn-t4\x22>คะแนน\x20->\x20','701106izqgOk','BM500K_2','\x22\x20class=\x22add-profile\x22\x20style=\x22margin:40px\x20auto\x200px\x20auto;\x22></div>','<center>','398491qBrSGw','34316JAanxi','5PxMipq','<div\x20class=\x22btn-t77\x22>1.\x20หมวด\x20%\x20Achievement</div>','where','<div\x20class=\x22text-2\x22\x20style=\x22margin-top:0px;\x22><b>','toFixed','<tr><th\x20scope=\x22row\x22>MTD\x20Issue</th><td\x20style=\x22text-align:center;\x22>','total','<tr><th\x20scope=\x22row\x22>#BM</th><td\x20style=\x22text-align:center;\x22>','getItem','<tr><th\x20scope=\x22row\x22>%\x20Mix</th><td\x20style=\x22text-align:center;\x22>','Rank_2','<tr><th\x20scope=\x22row\x22>MTD\x20Target</th><td\x20style=\x22text-align:center;\x22>','firestore','text','forEach','swing','display','<div\x20class=\x22btn-t77\x22>3.\x20หมวด\x20%\x20Product\x20Mix</div>','BAMF_2','<tr><th\x20scope=\x22row\x22>#BM\x20500K</th><td\x20style=\x22text-align:center;\x22>','Round1','id02','<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>','each','<table\x20class=\x22table\x20table-bordered\x20table-hover\x22\x20style=\x22width:90%;\x20max-width:\x20400px;\x20margin:auto;\x22>','TotalRank','<div\x20class=\x22text-2\x22>แข่งขัน\x20สาย\x20','<tr><th\x20scope=\x22row\x22>#BA/MF\x20250K</th><td\x20style=\x22text-align:center;\x22>','BMBA_2','\x22)\x27><div\x20class=\x27bar-info\x20rsoc14\x27\x20data-total=','<div><img\x20src=\x22','MTDTarget_1','93760LchJah','43416AWaHWz','<div\x20class=\x27bar\x27\x20onclick=\x27OpenProfile(\x22','<div\x20style=\x22text-align:center;\x22><img\x20src=\x22./img/m.png\x22\x20class=\x22add-profile\x22></div>','#DisplayZone','none','\x22)\x27><div\x20class=\x27bar-info\x20rsoc13\x27\x20data-total=','<tr><th\x20scope=\x22row\x22>Product\x20Focus\x20</th><td\x20style=\x22text-align:center;\x22>','.bar-info','Rank_1','orderBy','\x22)\x27><div\x20class=\x27bar-info\x20rsoc16\x27\x20data-total=','BM_2','Achieve_1','id03','1:653667385625:web:a5aed08500de80839f0588','</td></tr>','</center>','210LcoLaO','EmpZone','\x22)\x27><div\x20class=\x27bar-info\x20rsoc10\x27\x20data-total=','initializeApp','BBD_Kickoff','filter','collection','querySelector','EmpPicture','LineName','<div>','<tr><th\x20scope=\x22row\x22>Total\x20APE</th><td\x20style=\x22text-align:center;\x22>','\x20Point\x20|\x20อันดับ\x20->\x20','then','<div\x20class=\x22btn-t77\x22>2.\x20หมวด\x20%\x20Success\x20Seller\x20</div>','<div\x20class=\x22clr\x22></div><div\x20class=\x22btn-t2\x22\x20onclick=\x22CloseVDO()\x22\x20style=\x22margin-top:15px;\x22>ปิดวิดีโอ</div>','block','</b>\x20(','getElementById','data','791307MGwLQO','FieldPath','Mix_3','TotalAPE_3','href','\x22)\x27><div\x20class=\x27bar-info\x20rsoc12\x27\x20data-total=','<tr><th\x20scope=\x22row\x22>%\x20Achieve</th><td\x20style=\x22text-align:center;\x22>','BBD_LeagueMember','<div\x20class=\x22clr\x22\x20style=\x22height:\x2025px;\x22></div>','index.html','push','</table>','<tr><th\x20scope=\x22row\x22>#BA/MF</th><td\x20style=\x22text-align:center;\x22>','Point_3','369WsglxM','BASuccess_2','intro.html','allteam.html','<tbody>','pause','<div\x20class=\x22text-1\x22>','<div\x20class=\x27bar\x27\x20onclick=\x27OpenRH(\x22','<tr><th\x20scope=\x22row\x22>Point</th><td\x20style=\x22text-align:center;\x22>','EmpName','<thead\x20class=\x22thead-dark\x22><tr><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายการ</th><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายละเอียด</th></thead>','.percent','</span></div></div>','<source\x20src=\x22https://firebasestorage.googleapis.com/v0/b/retailproject-6f4fc.appspot.com/o/vdo%2FBBDLeague.mp4?alt=media&token=62eb01b8-8c1f-4dca-955d-221dc4bba317\x22\x20type=\x22video/mp4\x22></video>','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','EmpPosition','animate','MTDIssue_1','</tbody>','EmpID','css','<div\x20class=\x22btn-t2\x22\x20onclick=\x22CloseAll()\x22\x20style=\x22margin-top:15px;\x22>ปิดหน้าต่างนี้</div>','</div>','retailproject-6f4fc','EmpRH','LinePicture','achievement.html','<tr><th\x20scope=\x22row\x22>#BM&BA\x20Success</th><td\x20style=\x22text-align:center;\x22>','rhpoint.html','50348AwOXdA','get','<tr><th\x20scope=\x22row\x22>%\x20Success</th><td\x20style=\x22text-align:center;\x22>','#video','\x22)\x27><div\x20class=\x27bar-info\x20rsoc3\x27\x20data-total=','retailproject-6f4fc.firebaseapp.com','ProductFocus_3','\x22)\x27><div\x20class=\x27bar-info\x20rsoc11\x27\x20data-total=','id01','#DisplayProfile','Rank_3','desc','currentTime','html','\x22)\x27><div\x20class=\x27bar-info\x20rsoc4\x27\x20data-total=','\x22)\x27><div\x20class=\x27bar-info\x20rsoc7\x27\x20data-total=','documentId',')</b></div>','TotalPoint','<video\x20id=\x22video\x22\x20style=\x22max-width:450px;width:99%;margin:25px\x20auto\x205px\x20auto;\x22\x20controls=\x22controls\x22\x20autoplay>','BBD_RH','<div\x20class=\x22btn-t3\x22\x20style=\x22margin-top:25px;\x22>VDO\x20แนะนำการแข่งขัน</div><div\x20class=\x22clr\x22></div>','Counter','<div\x20class=\x22text-2\x22\x20style=\x22margin-top:0px;\x22><b>สำนักงานเขตธุรกิจสาขา-','<tr><th\x20scope=\x22row\x22>Rank</th><td\x20style=\x22text-align:center;\x22>','style','<tr><th\x20scope=\x22row\x22>#BM&BA</th><td\x20style=\x22text-align:center;\x22>','653667385625','MF250K_2','retailproject-6f4fc.appspot.com'];_0x31d4=function(){return _0x40bc70;};return _0x31d4();}var DoneSurvey=0x0,ShowScore=0x0;$(document)['ready'](function(){var _0x51e728=_0x26df;sessionStorage[_0x51e728(0x181)]('EmpID_Kickoff')==null&&(location[_0x51e728(0x12a)]=_0x51e728(0x12f)),Connect_DB();});function Connect_DB(){var _0x490177=_0x26df,_0x227e4a={'apiKey':_0x490177(0x142),'authDomain':_0x490177(0x156),'projectId':_0x490177(0x14b),'storageBucket':_0x490177(0x16e),'messagingSenderId':_0x490177(0x16c),'appId':_0x490177(0x1a8),'measurementId':'G-9SKTRHHSW9'};firebase[_0x490177(0x1ae)](_0x227e4a),dbBBDKickoff=firebase['firestore']()[_0x490177(0x1b1)](_0x490177(0x1af)),dbBBDRH=firebase['firestore']()[_0x490177(0x1b1)](_0x490177(0x165)),dbLeagueMember=firebase['firestore']()[_0x490177(0x1b1)](_0x490177(0x12d)),GetLinePicture(),CheckRH(),CheckScore();}function GetLinePicture(){var _0x5825b8=_0x26df,_0x3f7cf1=0x0,_0x122bfd='';LineEmpIDArr=[],LinePictureArr=[],dbLeagueMember['orderBy'](_0x5825b8(0x147),_0x5825b8(0x170))[_0x5825b8(0x152)]()[_0x5825b8(0x11f)](_0x565807=>{var _0x41f116=_0x5825b8;_0x565807[_0x41f116(0x187)](_0x39bade=>{var _0x110cf0=_0x41f116;LineEmpIDArr['push'](_0x39bade[_0x110cf0(0x125)]()[_0x110cf0(0x147)]),LinePictureArr[_0x110cf0(0x130)]({'EmpID':_0x39bade[_0x110cf0(0x125)]()['EmpID'],'EmpName':_0x39bade[_0x110cf0(0x125)]()[_0x110cf0(0x1b4)],'EmpPicture':_0x39bade['data']()[_0x110cf0(0x14d)],'EmpRef':_0x39bade['id']});});});}function CheckScore(){var _0x339817=_0x26df,_0x5597b9=0x0;dbBBDKickoff[_0x339817(0x1a3)]('TotalPoint',_0x339817(0x15c))[_0x339817(0x1a3)](_0x339817(0x192),'asc')[_0x339817(0x152)]()['then'](_0x134359=>{var _0x362b43=_0x339817;_0x134359[_0x362b43(0x187)](_0x5d533f=>{var _0x30b090=_0x362b43;if(_0x5597b9==0x0)id0=_0x5d533f['id'],n0=_0x5d533f[_0x30b090(0x125)]()['Round1']+'-'+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f[_0x30b090(0x125)]()['EmpRH']+')',a0=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x1)id1=_0x5d533f['id'],n1=_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x18d)]+'-'+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f['data']()[_0x30b090(0x14c)]+')',a1=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x2)id2=_0x5d533f['id'],n2=_0x5d533f[_0x30b090(0x125)]()['Round1']+'-'+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x14c)]+')',a2=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)['toFixed'](0x0);else{if(_0x5597b9==0x3)id3=_0x5d533f['id'],n3=_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x18d)]+'-'+_0x5d533f['data']()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x14c)]+')',a3=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x4)id4=_0x5d533f['id'],n4=_0x5d533f[_0x30b090(0x125)]()['Round1']+'-'+_0x5d533f['data']()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f['data']()[_0x30b090(0x14c)]+')',a4=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x5)id5=_0x5d533f['id'],n5=_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x18d)]+'-'+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f['data']()[_0x30b090(0x14c)]+')',a5=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x6)id6=_0x5d533f['id'],n6=_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x18d)]+'-'+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f['data']()[_0x30b090(0x14c)]+')',a6=(_0x5d533f[_0x30b090(0x125)]()['TotalPoint']*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x7)id7=_0x5d533f['id'],n7=_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x18d)]+'-'+_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f[_0x30b090(0x125)]()['EmpRH']+')',a7=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0);else{if(_0x5597b9==0x8)id8=_0x5d533f['id'],n8=_0x5d533f['data']()['Round1']+'-'+_0x5d533f[_0x30b090(0x125)]()['EmpZone']+'\x20('+_0x5d533f['data']()[_0x30b090(0x14c)]+')',a8=(_0x5d533f[_0x30b090(0x125)]()['TotalPoint']*0x64/0xf)[_0x30b090(0x17d)](0x0);else _0x5597b9==0x9&&(id9=_0x5d533f['id'],n9=_0x5d533f['data']()[_0x30b090(0x18d)]+'-'+_0x5d533f['data']()[_0x30b090(0x1ac)]+'\x20('+_0x5d533f['data']()[_0x30b090(0x14c)]+')',a9=(_0x5d533f[_0x30b090(0x125)]()[_0x30b090(0x163)]*0x64/0xf)[_0x30b090(0x17d)](0x0));}}}}}}}}_0x5597b9++;}),NewSet();});}function NewSet(){var _0x21149=_0x26df;str='',str+=_0x21149(0x19b)+id0+_0x21149(0x160)+a0+'>'+n0+'',str+='<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>'+a0+_0x21149(0x140),str+=_0x21149(0x19b)+id1+'\x22)\x27><div\x20class=\x27bar-info\x20rsoc2\x27\x20data-total='+a1+'>'+n1+'',str+='<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>'+a1+_0x21149(0x140),str+='<div\x20class=\x27bar\x27\x20onclick=\x27OpenProfile(\x22'+id2+_0x21149(0x155)+a2+'>'+n2+'',str+=_0x21149(0x18f)+a2+'</span></div></div>',str+='<div\x20class=\x27bar\x27\x20onclick=\x27OpenProfile(\x22'+id3+_0x21149(0x15f)+a3+'>'+n3+'',str+=_0x21149(0x18f)+a3+'</span></div></div>',str+=_0x21149(0x19b)+id4+'\x22)\x27><div\x20class=\x27bar-info\x20rsoc5\x27\x20data-total='+a4+'>'+n4+'',str+='<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>'+a4+_0x21149(0x140),str+=_0x21149(0x19b)+id5+'\x22)\x27><div\x20class=\x27bar-info\x20rsoc6\x27\x20data-total='+a5+'>'+n5+'',str+=_0x21149(0x18f)+a5+_0x21149(0x140),str+=_0x21149(0x19b)+id6+'\x22)\x27><div\x20class=\x27bar-info\x20rsoc7\x27\x20data-total='+a6+'>'+n6+'',str+=_0x21149(0x18f)+a6+_0x21149(0x140),str+=_0x21149(0x19b)+id7+_0x21149(0x171)+a7+'>'+n7+'',str+=_0x21149(0x18f)+a7+_0x21149(0x140),str+='<div\x20class=\x27bar\x27\x20onclick=\x27OpenProfile(\x22'+id8+'\x22)\x27><div\x20class=\x27bar-info\x20rsoc9\x27\x20data-total='+a8+'>'+n8+'',str+=_0x21149(0x18f)+a8+_0x21149(0x140),str+=_0x21149(0x19b)+id9+_0x21149(0x1ad)+a9+'>'+n9+'',str+=_0x21149(0x18f)+a9+'</span></div></div>',$(_0x21149(0x19d))[_0x21149(0x15e)](str);function _0x335124(){var _0x2c273b=_0x21149;$(_0x2c273b(0x1a1))[_0x2c273b(0x190)](function(){var _0x2394f2=_0x2c273b;total=$(this)[_0x2394f2(0x125)](_0x2394f2(0x17f)),$(this)[_0x2394f2(0x148)]('width',total+'%');}),$(_0x2c273b(0x13f))['each'](function(){var _0x4be060=_0x2c273b,_0x315c03=$(this);$({'Counter':0xa})[_0x4be060(0x144)]({'Counter':_0x315c03['text']()},{'duration':0xbb8,'easing':_0x4be060(0x188),'step':function(){var _0x2246f0=_0x4be060;_0x315c03[_0x2246f0(0x186)](Math['ceil'](this[_0x2246f0(0x167)])+'%');}});});};setTimeout(_0x335124,0x3e8);}function OpenProfile(_0x53f44a){var _0x139898=_0x26df,_0x1b201a='';dbBBDKickoff[_0x139898(0x17b)](firebase['firestore'][_0x139898(0x127)]['documentId'](),'==',_0x53f44a)[_0x139898(0x152)]()[_0x139898(0x11f)](_0x363069=>{var _0x324b5f=_0x139898;_0x363069[_0x324b5f(0x187)](_0x5d8030=>{var _0x3ce6fb=_0x324b5f;const _0x41620a=LinePictureArr[_0x3ce6fb(0x1b0)](_0x2311bb=>{var _0x2c035c=_0x3ce6fb;return _0x2311bb['EmpID']===_0x5d8030['data']()[_0x2c035c(0x147)];});_0x1b201a+='<center>',_0x41620a[0x0][_0x3ce6fb(0x1b3)]!=undefined?_0x1b201a+=_0x3ce6fb(0x197)+_0x41620a[0x0][_0x3ce6fb(0x1b3)]+_0x3ce6fb(0x175):_0x1b201a+=_0x3ce6fb(0x19c),_0x1b201a+=_0x3ce6fb(0x13a)+_0x5d8030[_0x3ce6fb(0x125)]()['EmpName']+_0x3ce6fb(0x14a),_0x1b201a+=_0x3ce6fb(0x168)+_0x5d8030['data']()[_0x3ce6fb(0x1ac)]+'\x20('+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x14c)]+_0x3ce6fb(0x162),_0x1b201a+=_0x3ce6fb(0x172)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x163)]+_0x3ce6fb(0x11e)+_0x5d8030['data']()[_0x3ce6fb(0x192)]+_0x3ce6fb(0x14a),_0x1b201a+=_0x3ce6fb(0x193)+_0x5d8030['data']()[_0x3ce6fb(0x18d)]+_0x3ce6fb(0x14a),_0x1b201a+=_0x3ce6fb(0x11c),_0x1b201a+=_0x3ce6fb(0x17a),_0x1b201a+=_0x3ce6fb(0x191),_0x1b201a+=_0x3ce6fb(0x13e),_0x1b201a+=_0x3ce6fb(0x138),_0x1b201a+='<tr><th\x20scope=\x22row\x22>MTD\x20Target</th><td\x20style=\x22text-align:center;\x22>'+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x198)]+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x17e)+_0x5d8030[_0x3ce6fb(0x125)]()['MTDIssue_1']+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x12c)+_0x5d8030[_0x3ce6fb(0x125)]()['Achieve_1']+_0x3ce6fb(0x1a9),_0x1b201a+='<tr><th\x20scope=\x22row\x22>Rank</th><td\x20style=\x22text-align:center;\x22>'+_0x5d8030[_0x3ce6fb(0x125)]()['Rank_1']+_0x3ce6fb(0x1a9),_0x1b201a+='<tr><th\x20scope=\x22row\x22>Point</th><td\x20style=\x22text-align:center;\x22>'+_0x5d8030[_0x3ce6fb(0x125)]()['Point_1']+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x146),_0x1b201a+=_0x3ce6fb(0x131),_0x1b201a+=_0x3ce6fb(0x120),_0x1b201a+=_0x3ce6fb(0x191),_0x1b201a+='<thead\x20class=\x22thead-dark\x22><tr><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายการ</th><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายละเอียด</th></thead>',_0x1b201a+=_0x3ce6fb(0x138),_0x1b201a+=_0x3ce6fb(0x180)+_0x5d8030['data']()[_0x3ce6fb(0x1a5)]+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x132)+_0x5d8030[_0x3ce6fb(0x125)]()['BAMF_2']+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x16b)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x195)]+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x18c)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x174)]+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x194)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x16d)]+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x14f)+_0x5d8030['data']()['BASuccess_2']+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x153)+_0x5d8030['data']()[_0x3ce6fb(0x16f)]+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x169)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x183)]+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x13c)+_0x5d8030['data']()['Point_2']+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x146),_0x1b201a+='</table>',_0x1b201a+=_0x3ce6fb(0x18a),_0x1b201a+=_0x3ce6fb(0x191),_0x1b201a+=_0x3ce6fb(0x13e),_0x1b201a+='<tbody>',_0x1b201a+=_0x3ce6fb(0x1a0)+_0x5d8030['data']()[_0x3ce6fb(0x157)]+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x11d)+_0x5d8030[_0x3ce6fb(0x125)]()['TotalAPE_3']+'</td></tr>',_0x1b201a+=_0x3ce6fb(0x182)+_0x5d8030[_0x3ce6fb(0x125)]()['Mix_3']+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x169)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x15b)]+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x13c)+_0x5d8030[_0x3ce6fb(0x125)]()[_0x3ce6fb(0x133)]+_0x3ce6fb(0x1a9),_0x1b201a+=_0x3ce6fb(0x146),_0x1b201a+=_0x3ce6fb(0x131),_0x1b201a+='</div>',_0x1b201a+=_0x3ce6fb(0x149),_0x1b201a+=_0x3ce6fb(0x12e),_0x1b201a+='</center>';}),$(_0x324b5f(0x15a))[_0x324b5f(0x15e)](_0x1b201a),document['getElementById']('id02')[_0x324b5f(0x16a)][_0x324b5f(0x189)]=_0x324b5f(0x122);});}function CheckRH(){var _0x1170fd=_0x26df,_0x4d17da=0x0;dbBBDRH[_0x1170fd(0x1a3)](_0x1170fd(0x163),_0x1170fd(0x15c))[_0x1170fd(0x1a3)](_0x1170fd(0x192),_0x1170fd(0x170))['get']()[_0x1170fd(0x11f)](_0x16aeaa=>{var _0x4a7abe=_0x1170fd;_0x16aeaa[_0x4a7abe(0x187)](_0x10f297=>{var _0x35ee10=_0x4a7abe;if(_0x4d17da==0x0)iid0=_0x10f297['id'],nn0=_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x14c)],aa0=(_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x163)]*0x64/0xf)[_0x35ee10(0x17d)](0x0);else{if(_0x4d17da==0x1)iid1=_0x10f297['id'],nn1=_0x10f297[_0x35ee10(0x125)]()['EmpRH'],aa1=(_0x10f297['data']()[_0x35ee10(0x163)]*0x64/0xf)['toFixed'](0x0);else{if(_0x4d17da==0x2)iid2=_0x10f297['id'],nn2=_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x14c)],aa2=(_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x163)]*0x64/0xf)['toFixed'](0x0);else{if(_0x4d17da==0x3)iid3=_0x10f297['id'],nn3=_0x10f297['data']()['EmpRH'],aa3=(_0x10f297['data']()[_0x35ee10(0x163)]*0x64/0xf)[_0x35ee10(0x17d)](0x0);else{if(_0x4d17da==0x4)iid4=_0x10f297['id'],nn4=_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x14c)],aa4=(_0x10f297[_0x35ee10(0x125)]()['TotalPoint']*0x64/0xf)[_0x35ee10(0x17d)](0x0);else _0x4d17da==0x5&&(iid5=_0x10f297['id'],nn5=_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x14c)],aa5=(_0x10f297[_0x35ee10(0x125)]()[_0x35ee10(0x163)]*0x64/0xf)[_0x35ee10(0x17d)](0x0));}}}}_0x4d17da++;}),SetRH();});}function SetRH(){var _0x5b14fb=_0x26df;str='',str+=_0x5b14fb(0x13b)+iid0+_0x5b14fb(0x158)+aa0+'>'+nn0+'',str+=_0x5b14fb(0x18f)+aa0+'</span></div></div>',str+='<div\x20class=\x27bar\x27\x20onclick=\x27OpenRH(\x22'+iid1+_0x5b14fb(0x12b)+aa1+'>'+nn1+'',str+=_0x5b14fb(0x18f)+aa1+_0x5b14fb(0x140),str+=_0x5b14fb(0x13b)+iid2+_0x5b14fb(0x19f)+aa2+'>'+nn2+'',str+='<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>'+aa2+_0x5b14fb(0x140),str+=_0x5b14fb(0x13b)+iid3+_0x5b14fb(0x196)+aa3+'>'+nn3+'',str+='<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>'+aa3+'</span></div></div>',str+=_0x5b14fb(0x13b)+iid4+'\x22)\x27><div\x20class=\x27bar-info\x20rsoc15\x27\x20data-total='+aa4+'>'+nn4+'',str+=_0x5b14fb(0x18f)+aa4+_0x5b14fb(0x140),str+=_0x5b14fb(0x13b)+iid5+_0x5b14fb(0x1a4)+aa5+'>'+nn5+'',str+='<span\x20class=\x27percent\x27\x20style=\x27float:\x20right;\x27>'+aa5+'</span></div></div>',$('#DisplayRH')[_0x5b14fb(0x15e)](str);}function OpenRH(_0x4b79c3){var _0x25f5b7=_0x26df,_0x48e7db='';dbBBDRH[_0x25f5b7(0x17b)](firebase[_0x25f5b7(0x185)][_0x25f5b7(0x127)][_0x25f5b7(0x161)](),'==',_0x4b79c3)[_0x25f5b7(0x152)]()['then'](_0x57ea5e=>{var _0x4a4918=_0x25f5b7;_0x57ea5e[_0x4a4918(0x187)](_0x57d62b=>{var _0x36d6f4=_0x4a4918;const _0x2486ba=LinePictureArr[_0x36d6f4(0x1b0)](_0xb51531=>{var _0x12ced2=_0x36d6f4;return _0xb51531[_0x12ced2(0x147)]===_0x57d62b[_0x12ced2(0x125)]()[_0x12ced2(0x147)];});_0x48e7db+='<center>',_0x2486ba[0x0][_0x36d6f4(0x13d)]!=undefined?_0x48e7db+=_0x36d6f4(0x197)+_0x2486ba[0x0][_0x36d6f4(0x1b3)]+'\x22\x20class=\x22add-profile\x22\x20style=\x22margin:40px\x20auto\x200px\x20auto;\x22></div>':_0x48e7db+=_0x36d6f4(0x19c),_0x48e7db+=_0x36d6f4(0x13a)+_0x57d62b['data']()['EmpName']+_0x36d6f4(0x14a),_0x48e7db+=_0x36d6f4(0x17c)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x143)]+_0x36d6f4(0x123)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x14c)]+')</div>',_0x48e7db+=_0x36d6f4(0x172)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x163)]+_0x36d6f4(0x11e)+_0x57d62b[_0x36d6f4(0x125)]()['TotalRank']+'</div>',_0x48e7db+=_0x36d6f4(0x11c),_0x48e7db+=_0x36d6f4(0x17a),_0x48e7db+=_0x36d6f4(0x191),_0x48e7db+='<thead\x20class=\x22thead-dark\x22><tr><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายการ</th><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายละเอียด</th></thead>',_0x48e7db+=_0x36d6f4(0x138),_0x48e7db+=_0x36d6f4(0x184)+_0x57d62b['data']()[_0x36d6f4(0x198)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x17e)+_0x57d62b['data']()[_0x36d6f4(0x145)]+_0x36d6f4(0x1a9),_0x48e7db+='<tr><th\x20scope=\x22row\x22>%\x20Achieve</th><td\x20style=\x22text-align:center;\x22>'+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x1a6)]+_0x36d6f4(0x1a9),_0x48e7db+='<tr><th\x20scope=\x22row\x22>Rank</th><td\x20style=\x22text-align:center;\x22>'+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x1a2)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x13c)+_0x57d62b['data']()['Point_1']+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x146),_0x48e7db+=_0x36d6f4(0x131),_0x48e7db+=_0x36d6f4(0x120),_0x48e7db+=_0x36d6f4(0x191),_0x48e7db+=_0x36d6f4(0x13e),_0x48e7db+=_0x36d6f4(0x138),_0x48e7db+=_0x36d6f4(0x180)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x1a5)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x132)+_0x57d62b['data']()[_0x36d6f4(0x18b)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x16b)+_0x57d62b[_0x36d6f4(0x125)]()['BMBA_2']+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x18c)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x174)]+_0x36d6f4(0x1a9),_0x48e7db+='<tr><th\x20scope=\x22row\x22>#BA/MF\x20250K</th><td\x20style=\x22text-align:center;\x22>'+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x16d)]+_0x36d6f4(0x1a9),_0x48e7db+='<tr><th\x20scope=\x22row\x22>#BM&BA\x20Success</th><td\x20style=\x22text-align:center;\x22>'+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x135)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x153)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x16f)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x169)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x183)]+'</td></tr>',_0x48e7db+=_0x36d6f4(0x13c)+_0x57d62b[_0x36d6f4(0x125)]()['Point_2']+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x146),_0x48e7db+=_0x36d6f4(0x131),_0x48e7db+='<div\x20class=\x22btn-t77\x22>3.\x20หมวด\x20%\x20Product\x20Mix</div>',_0x48e7db+=_0x36d6f4(0x191),_0x48e7db+='<thead\x20class=\x22thead-dark\x22><tr><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายการ</th><th\x20scope=\x22col\x22\x20class=\x22col_td\x22>รายละเอียด</th></thead>',_0x48e7db+=_0x36d6f4(0x138),_0x48e7db+='<tr><th\x20scope=\x22row\x22>Product\x20Focus\x20</th><td\x20style=\x22text-align:center;\x22>'+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x157)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x11d)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x129)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x182)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x128)]+_0x36d6f4(0x1a9),_0x48e7db+='<tr><th\x20scope=\x22row\x22>Rank</th><td\x20style=\x22text-align:center;\x22>'+_0x57d62b[_0x36d6f4(0x125)]()['Rank_3']+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x13c)+_0x57d62b[_0x36d6f4(0x125)]()[_0x36d6f4(0x133)]+_0x36d6f4(0x1a9),_0x48e7db+=_0x36d6f4(0x146),_0x48e7db+=_0x36d6f4(0x131),_0x48e7db+=_0x36d6f4(0x14a),_0x48e7db+='<div\x20class=\x22btn-t2\x22\x20onclick=\x22CloseAll()\x22\x20style=\x22margin-top:15px;\x22>ปิดหน้าต่างนี้</div>',_0x48e7db+='<div\x20class=\x22clr\x22\x20style=\x22height:\x2025px;\x22></div>',_0x48e7db+=_0x36d6f4(0x1aa);}),$(_0x4a4918(0x15a))[_0x4a4918(0x15e)](_0x48e7db),document[_0x4a4918(0x124)](_0x4a4918(0x18e))[_0x4a4918(0x16a)][_0x4a4918(0x189)]='block';});}function OpenLink(_0x3b0d2a){var _0x575651=_0x26df,_0x3cc8da='';if(_0x3b0d2a==0x1)location[_0x575651(0x12a)]=_0x575651(0x136);else{if(_0x3b0d2a==0x2)location[_0x575651(0x12a)]='howto.html';else{if(_0x3b0d2a==0x3)_0x3cc8da+=_0x575651(0x176),_0x3cc8da+=_0x575651(0x166),_0x3cc8da+=_0x575651(0x164),_0x3cc8da+=_0x575651(0x141),_0x3cc8da+=_0x575651(0x121),_0x3cc8da+='</center><div\x20class=\x22clr\x22\x20style=\x22height:\x2025px;\x22></div>',$('#DisplayVDO')[_0x575651(0x15e)](_0x3cc8da),document[_0x575651(0x124)](_0x575651(0x159))[_0x575651(0x16a)]['display']=_0x575651(0x122);else{if(_0x3b0d2a==0x4)location[_0x575651(0x12a)]=_0x575651(0x137);else{if(_0x3b0d2a==0x5)location[_0x575651(0x12a)]=_0x575651(0x150);else _0x3b0d2a==0x6&&(location[_0x575651(0x12a)]=_0x575651(0x14e));}}}}}function _0x26df(_0x14aa84,_0x1a55c8){var _0x31d474=_0x31d4();return _0x26df=function(_0x26dfc5,_0x59a687){_0x26dfc5=_0x26dfc5-0x11c;var _0xa46a41=_0x31d474[_0x26dfc5];return _0xa46a41;},_0x26df(_0x14aa84,_0x1a55c8);}function CloseAll(){var _0xf4ad28=_0x26df;document[_0xf4ad28(0x124)](_0xf4ad28(0x159))[_0xf4ad28(0x16a)]['display']=_0xf4ad28(0x19e),document[_0xf4ad28(0x124)](_0xf4ad28(0x18e))['style'][_0xf4ad28(0x189)]=_0xf4ad28(0x19e),document[_0xf4ad28(0x124)](_0xf4ad28(0x1a7))[_0xf4ad28(0x16a)][_0xf4ad28(0x189)]=_0xf4ad28(0x19e);}function CloseVDO(){var _0x26d17e=_0x26df,_0x331465=document[_0x26d17e(0x1b2)](_0x26d17e(0x154));_0x331465[_0x26d17e(0x139)](),_0x331465[_0x26d17e(0x15d)]=0x0,document['getElementById'](_0x26d17e(0x159))[_0x26d17e(0x16a)]['display']='none';}
+var DoneSurvey = 0;
+var ShowScore = 0;
+var xRatio = 18;
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpID_Kickoff")==null) { location.href = "index.html"; }
+  Connect_DB();
+});
+
+
+
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "09/01/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbBBDKickoff = firebase.firestore().collection("BBD_Kickoff");
+  dbBBDRH = firebase.firestore().collection("BBD_RH");
+  dbLeagueMember = firebase.firestore().collection("BBD_LeagueMember");
+  GetLinePicture();
+  CheckRH();
+  CheckScore();
+}
+
+
+function GetLinePicture() {
+  var i = 0;
+  var str = "";
+  LineEmpIDArr = [];
+  LinePictureArr = [];
+  dbLeagueMember
+  .orderBy('EmpID','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      LineEmpIDArr.push(doc.data().EmpID);
+      //LinePictureArr.push([doc.data().EmpID, doc.data().LineName, doc.data().LinePicture, doc.id]);
+      LinePictureArr.push({ EmpID: doc.data().EmpID, EmpName: doc.data().LineName , EmpPicture: doc.data().LinePicture, EmpRef: doc.id });
+    });    
+    //console.log(LinePictureArr);
+    //const results = LinePictureArr.filter(obj => {return obj.EmpID === 23782;});
+    //console.log(results[0].EmpName);
+  });
+}
+
+
+function CheckScore() {
+  var i = 0;
+  dbBBDKickoff
+  .orderBy('TotalPoint','desc')
+  .orderBy('TotalRank','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      //console.log(doc.data().EmpZone+" === "+doc.data().TotalPoint);
+      if(i==0) {
+        id0 = doc.id;
+        n0 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a0 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==1) { 
+        id1 = doc.id;
+        n1 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a1 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==2) { 
+        id2 = doc.id;
+        n2 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a2 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==3) { 
+        id3 = doc.id;
+        n3 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a3 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==4) { 
+        id4 = doc.id;
+        n4 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a4 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==5) { 
+        id5 = doc.id;
+        n5 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a5 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==6) { 
+        id6 = doc.id;
+        n6 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a6 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==7) { 
+        id7 = doc.id;
+        n7 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a7 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==8) { 
+        id8 = doc.id;
+        n8 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a8 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==9) { 
+        id9 = doc.id;
+        n9 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a9 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      }
+      i++;
+    });
+    NewSet();
+  });
+}
+
+
+function NewSet() {
+  str = '';
+  //str += "<div class='bar' onclick='OpenProfile(\""+ n0 +"\")'><div class='bar-info rsoc7' data-total="+ a0 +">"+ n0 +"";
+  str += "<div class='bar' onclick='OpenProfile(\""+ id0 +"\")'><div class='bar-info rsoc7' data-total="+ a0 +">"+ n0 +"";
+  str += "<span class='percent' style='float: right;'>"+ a0 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id1 +"\")'><div class='bar-info rsoc2' data-total="+ a1 +">"+ n1 +"";
+  str += "<span class='percent' style='float: right;'>"+ a1 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id2 +"\")'><div class='bar-info rsoc3' data-total="+ a2 +">"+ n2 +"";
+  str += "<span class='percent' style='float: right;'>"+ a2 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id3 +"\")'><div class='bar-info rsoc4' data-total="+ a3 +">"+ n3 +"";
+  str += "<span class='percent' style='float: right;'>"+ a3 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id4 +"\")'><div class='bar-info rsoc5' data-total="+ a4 +">"+ n4 +"";
+  str += "<span class='percent' style='float: right;'>"+ a4 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id5 +"\")'><div class='bar-info rsoc6' data-total="+ a5 +">"+ n5 +"";
+  str += "<span class='percent' style='float: right;'>"+ a5 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id6 +"\")'><div class='bar-info rsoc7' data-total="+ a6 +">"+ n6 +"";
+  str += "<span class='percent' style='float: right;'>"+ a6 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id7 +"\")'><div class='bar-info rsoc8' data-total="+ a7 +">"+ n7 +"";
+  str += "<span class='percent' style='float: right;'>"+ a7 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id8 +"\")'><div class='bar-info rsoc9' data-total="+ a8 +">"+ n8 +"";
+  str += "<span class='percent' style='float: right;'>"+ a8 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id9 +"\")'><div class='bar-info rsoc10' data-total="+ a9 +">"+ n9 +"";
+  str += "<span class='percent' style='float: right;'>"+ a9 +"</span></div></div>";  
+  $('#DisplayZone').html(str);
+
+  function skillSet() {
+    $('.bar-info').each(function() {
+      total = $(this).data("total");
+      $(this).css("width", total + "%");
+    });
+    
+    $('.percent').each(function() {
+      var $this = $(this);
+      $({
+        Counter: 10
+      }).animate({
+        Counter: $this.text()
+      }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function() {
+          $this.text(Math.ceil(this.Counter) + "%");
+        }
+      });
+    });
+  };
+  setTimeout(skillSet, 1000);
+}
+
+
+function OpenProfile(uid) {
+  var str = "";
+  //console.log(uid);
+  dbBBDKickoff.where(firebase.firestore.FieldPath.documentId(), "==", uid)
+  .get().then((snapshot)=> {
+  snapshot.forEach(doc=> {
+      const results = LinePictureArr.filter(obj => {return obj.EmpID === doc.data().EmpID;});
+      //console.log(results[0].EmpName);
+
+
+      str += '<center>';
+      if(results[0].EmpPicture!=undefined) { 
+        str += '<div><img src="'+results[0].EmpPicture+'" class="add-profile" style="margin:40px auto 0px auto;"></div>';
+        //str += '<div class="NameLine">'+doc.data().LineName+'</div>';
+      } else {
+        str += '<div style="text-align:center;"><img src="./img/m.png" class="add-profile"></div>';
+      }
+      str += '<div class="text-1">'+doc.data().EmpName+'</div>';
+      str += '<div class="text-2" style="margin-top:0px;"><b>สำนักงานเขตธุรกิจสาขา-'+doc.data().EmpZone+' ('+doc.data().EmpRH+')</b></div>';
+      str += '<div class="btn-t4">คะแนน -> '+doc.data().TotalPoint+' Point | อันดับ -> '+doc.data().TotalRank+'</div>';
+      str += '<div class="text-2">แข่งขันระดับ <b>'+ doc.data().League +'</b>  สาย <b>'+ doc.data().Round2+ '</b></div>';
+
+      str += '<div>';
+      str += '<div class="btn-t77">1. หมวด % Achievement</div>';
+      str += '<table class="table table-bordered table-hover" style="width:90%; max-width: 400px; margin:auto;">';
+      str += '<thead class="thead-dark"><tr><th scope="col" class="col_td">รายการ</th><th scope="col" class="col_td">รายละเอียด</th></thead>';
+      str += '<tbody>';
+      str += '<tr><th scope="row">MTD Target</th><td style="text-align:center;">'+doc.data().MTDTarget_1+'</td></tr>';
+      str += '<tr><th scope="row">MTD Issue</th><td style="text-align:center;">'+doc.data().MTDIssue_1+'</td></tr>';
+      str += '<tr><th scope="row">% Achieve</th><td style="text-align:center;">'+doc.data().Achieve_1+'</td></tr>';
+      str += '<tr><th scope="row">Rank</th><td style="text-align:center;">'+doc.data().Rank_1+'</td></tr>';
+      str += '<tr><th scope="row">Point</th><td style="text-align:center;">'+doc.data().Point_1+'</td></tr>';
+      str += '</tbody>';
+      str += '</table>';
+
+      str += '<div class="btn-t77">2. หมวด % Success Seller </div>';
+      str += '<table class="table table-bordered table-hover" style="width:90%; max-width: 400px; margin:auto;">';
+      str += '<thead class="thead-dark"><tr><th scope="col" class="col_td">รายการ</th><th scope="col" class="col_td">รายละเอียด</th></thead>';
+      str += '<tbody>';
+      str += '<tr><th scope="row">#BM</th><td style="text-align:center;">'+doc.data().BM_2+'</td></tr>';
+      str += '<tr><th scope="row">#BA/MF</th><td style="text-align:center;">'+doc.data().BAMF_2+'</td></tr>';
+      str += '<tr><th scope="row">#BM&BA</th><td style="text-align:center;">'+doc.data().BMBA_2+'</td></tr>';
+      str += '<tr><th scope="row">#BM 500K</th><td style="text-align:center;">'+doc.data().BM500K_2+'</td></tr>';
+      str += '<tr><th scope="row">#BA/MF 250K</th><td style="text-align:center;">'+doc.data().MF250K_2+'</td></tr>';
+      str += '<tr><th scope="row">#BM&BA Success</th><td style="text-align:center;">'+doc.data().BASuccess_2+'</td></tr>';
+      str += '<tr><th scope="row">% Success</th><td style="text-align:center;">'+doc.data().Success_2+'</td></tr>';
+      str += '<tr><th scope="row">Rank</th><td style="text-align:center;">'+doc.data().Rank_2+'</td></tr>';
+      str += '<tr><th scope="row">Point</th><td style="text-align:center;">'+doc.data().Point_2+'</td></tr>';
+      str += '</tbody>';
+      str += '</table>';
+
+      str += '<div class="btn-t77">3. หมวด % Product Mix</div>';
+      str += '<table class="table table-bordered table-hover" style="width:90%; max-width: 400px; margin:auto;">';
+      str += '<thead class="thead-dark"><tr><th scope="col" class="col_td">รายการ</th><th scope="col" class="col_td">รายละเอียด</th></thead>';
+      str += '<tbody>';
+      str += '<tr><th scope="row">Product Focus </th><td style="text-align:center;">'+doc.data().ProductFocus_3+'</td></tr>';
+      str += '<tr><th scope="row">Total APE</th><td style="text-align:center;">'+doc.data().TotalAPE_3+'</td></tr>';
+      str += '<tr><th scope="row">% Mix</th><td style="text-align:center;">'+doc.data().Mix_3+'</td></tr>';
+      str += '<tr><th scope="row">Rank</th><td style="text-align:center;">'+doc.data().Rank_3+'</td></tr>';
+      str += '<tr><th scope="row">Point</th><td style="text-align:center;">'+doc.data().Point_3+'</td></tr>';
+      str += '</tbody>';
+      str += '</table>';
+
+      str += '</div>';
+
+      str += '<div class="btn-t2" onclick="CloseAll()" style="margin-top:15px;">ปิดหน้าต่างนี้</div>';
+      str += '<div class="clr" style="height: 25px;"></div>';
+      str += '</center>';
+      //str += '</div>';
+    });
+    $("#DisplayProfile").html(str);  
+    document.getElementById("id02").style.display = "block";
+  });
+}
+
+
+
+function CheckRH() {
+  //var CalRatio = 15;
+  var i = 0;
+  dbBBDRH
+  .orderBy('TotalPoint','desc')
+  .orderBy('TotalRank','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      //console.log(doc.data().EmpZone+" === "+doc.data().TotalPoint);
+      if(i==0) {
+        iid0 = doc.id;
+        nn0 = doc.data().EmpRH;
+        aa0 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==1) { 
+        iid1 = doc.id;
+        nn1 = doc.data().EmpRH;
+        aa1 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==2) { 
+        iid2 = doc.id;
+        nn2 = doc.data().EmpRH;
+        aa2 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==3) { 
+        iid3 = doc.id;
+        nn3 = doc.data().EmpRH;
+        aa3 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==4) { 
+        iid4 = doc.id;
+        nn4 = doc.data().EmpRH;
+        aa4 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      } else if(i==5) { 
+        iid5 = doc.id;
+        nn5 = doc.data().EmpRH;
+        aa5 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      }
+      i++;
+    });
+    SetRH();
+  });
+}
+
+
+function SetRH() {
+  str = '';
+  str += "<div class='bar' onclick='OpenRH(\""+ iid0 +"\")'><div class='bar-info rsoc11' data-total="+ aa0 +">"+ nn0 +"";
+  str += "<span class='percent' style='float: right;'>"+ aa0 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenRH(\""+ iid1 +"\")'><div class='bar-info rsoc12' data-total="+ aa1 +">"+ nn1 +"";
+  str += "<span class='percent' style='float: right;'>"+ aa1 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenRH(\""+ iid2 +"\")'><div class='bar-info rsoc13' data-total="+ aa2 +">"+ nn2 +"";
+  str += "<span class='percent' style='float: right;'>"+ aa2 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenRH(\""+ iid3 +"\")'><div class='bar-info rsoc14' data-total="+ aa3 +">"+ nn3 +"";
+  str += "<span class='percent' style='float: right;'>"+ aa3 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenRH(\""+ iid4 +"\")'><div class='bar-info rsoc15' data-total="+ aa4 +">"+ nn4 +"";
+  str += "<span class='percent' style='float: right;'>"+ aa4 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenRH(\""+ iid5 +"\")'><div class='bar-info rsoc16' data-total="+ aa5 +">"+ nn5 +"";
+  str += "<span class='percent' style='float: right;'>"+ aa5 +"</span></div></div>";  
+  $('#DisplayRH').html(str);
+/*
+  function skillSet() {
+    $('.bar-info').each(function() {
+      total1 = $(this).data("total");
+      $(this).css("width", total1 + "%");
+    });
+    
+    $('.percent').each(function() {
+      var $this = $(this);
+      $({
+        Counter: 10
+      }).animate({
+        Counter: $this.text()
+      }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function() {
+          $this.text(Math.ceil(this.Counter) + "%");
+        }
+      });
+    });
+  };
+*/
+  //setTimeout(skillSet, 1000);
+}
+
+
+
+
+function OpenRH(uid) {
+  var str = "";
+  //console.log(uid);
+  dbBBDRH.where(firebase.firestore.FieldPath.documentId(), "==", uid)
+  .get().then((snapshot)=> {
+  snapshot.forEach(doc=> {
+      const results = LinePictureArr.filter(obj => {return obj.EmpID === doc.data().EmpID;});
+      //console.log(results[0].EmpName);
+      str += '<center>';
+      if(results[0].EmpName!=undefined) { 
+        str += '<div><img src="'+results[0].EmpPicture+'" class="add-profile" style="margin:40px auto 0px auto;"></div>';
+        //str += '<div class="NameLine">'+doc.data().LineName+'</div>';
+      } else {
+        str += '<div style="text-align:center;"><img src="./img/m.png" class="add-profile"></div>';
+      }
+      str += '<div class="text-1">'+doc.data().EmpName+'</div>';
+      str += '<div class="text-2" style="margin-top:0px;"><b>'+doc.data().EmpPosition+'</b> ('+ doc.data().EmpRH+')</div>';
+      str += '<div class="btn-t4">คะแนน -> '+doc.data().TotalPoint+' Point | อันดับ -> '+doc.data().TotalRank+'</div>';
+      //str += '<div class="text-2">แข่งขัน สาย '+doc.data().Round2+'</div>';
+
+      str += '<div>';
+
+      str += '<div class="btn-t77">1. หมวด % Achievement</div>';
+      str += '<table class="table table-bordered table-hover" style="width:90%; max-width: 400px; margin:auto;">';
+      str += '<thead class="thead-dark"><tr><th scope="col" class="col_td">รายการ</th><th scope="col" class="col_td">รายละเอียด</th></thead>';
+      str += '<tbody>';
+      str += '<tr><th scope="row">MTD Target</th><td style="text-align:center;">'+doc.data().MTDTarget_1+'</td></tr>';
+      str += '<tr><th scope="row">MTD Issue</th><td style="text-align:center;">'+doc.data().MTDIssue_1+'</td></tr>';
+      str += '<tr><th scope="row">% Achieve</th><td style="text-align:center;">'+doc.data().Achieve_1+'</td></tr>';
+      str += '<tr><th scope="row">Rank</th><td style="text-align:center;">'+doc.data().Rank_1+'</td></tr>';
+      str += '<tr><th scope="row">Point</th><td style="text-align:center;">'+doc.data().Point_1+'</td></tr>';
+      str += '</tbody>';
+      str += '</table>';
+
+      str += '<div class="btn-t77">2. หมวด % Success Seller </div>';
+      str += '<table class="table table-bordered table-hover" style="width:90%; max-width: 400px; margin:auto;">';
+      str += '<thead class="thead-dark"><tr><th scope="col" class="col_td">รายการ</th><th scope="col" class="col_td">รายละเอียด</th></thead>';
+      str += '<tbody>';
+      str += '<tr><th scope="row">#BM</th><td style="text-align:center;">'+doc.data().BM_2+'</td></tr>';
+      str += '<tr><th scope="row">#BA/MF</th><td style="text-align:center;">'+doc.data().BAMF_2+'</td></tr>';
+      str += '<tr><th scope="row">#BM&BA</th><td style="text-align:center;">'+doc.data().BMBA_2+'</td></tr>';
+      str += '<tr><th scope="row">#BM 500K</th><td style="text-align:center;">'+doc.data().BM500K_2+'</td></tr>';
+      str += '<tr><th scope="row">#BA/MF 250K</th><td style="text-align:center;">'+doc.data().MF250K_2+'</td></tr>';
+      str += '<tr><th scope="row">#BM&BA Success</th><td style="text-align:center;">'+doc.data().BASuccess_2+'</td></tr>';
+      str += '<tr><th scope="row">% Success</th><td style="text-align:center;">'+doc.data().Success_2+'</td></tr>';
+      str += '<tr><th scope="row">Rank</th><td style="text-align:center;">'+doc.data().Rank_2+'</td></tr>';
+      str += '<tr><th scope="row">Point</th><td style="text-align:center;">'+doc.data().Point_2+'</td></tr>';
+      str += '</tbody>';
+      str += '</table>';
+
+      str += '<div class="btn-t77">3. หมวด % Product Mix</div>';
+      str += '<table class="table table-bordered table-hover" style="width:90%; max-width: 400px; margin:auto;">';
+      str += '<thead class="thead-dark"><tr><th scope="col" class="col_td">รายการ</th><th scope="col" class="col_td">รายละเอียด</th></thead>';
+      str += '<tbody>';
+      str += '<tr><th scope="row">Product Focus </th><td style="text-align:center;">'+doc.data().ProductFocus_3+'</td></tr>';
+      str += '<tr><th scope="row">Total APE</th><td style="text-align:center;">'+doc.data().TotalAPE_3+'</td></tr>';
+      str += '<tr><th scope="row">% Mix</th><td style="text-align:center;">'+doc.data().Mix_3+'</td></tr>';
+      str += '<tr><th scope="row">Rank</th><td style="text-align:center;">'+doc.data().Rank_3+'</td></tr>';
+      str += '<tr><th scope="row">Point</th><td style="text-align:center;">'+doc.data().Point_3+'</td></tr>';
+      str += '</tbody>';
+      str += '</table>';
+
+      str += '</div>';
+
+      str += '<div class="btn-t2" onclick="CloseAll()" style="margin-top:15px;">ปิดหน้าต่างนี้</div>';
+      str += '<div class="clr" style="height: 25px;"></div>';
+      str += '</center>';
+      //str += '</div>';
+    });
+    $("#DisplayProfile").html(str);  
+    document.getElementById("id02").style.display = "block";
+  });
+
+}
+
+
+
+function OpenLink(page) {
+  var str = "";
+  if(page==1) {
+    location.href = 'intro.html';
+  } else if(page==2) {
+    location.href = 'howto.html';
+  } else if(page==3) { // ประเมินผล
+    str += '<center>';
+    str += '<div class="btn-t3" style="margin-top:25px;">VDO แนะนำการแข่งขัน</div><div class="clr"></div>';
+    str += '<video id="video" style="max-width:450px;width:99%;margin:25px auto 5px auto;" controls="controls" autoplay>';
+    str += '<source src="https://firebasestorage.googleapis.com/v0/b/retailproject-6f4fc.appspot.com/o/vdo%2FBBDLeague.mp4?alt=media&token=62eb01b8-8c1f-4dca-955d-221dc4bba317" type="video/mp4"></video>';
+    str += '<div class="clr"></div><div class="btn-t2" onclick="CloseVDO()" style="margin-top:15px;">ปิดวิดีโอ</div>';
+    str += '</center><div class="clr" style="height: 25px;"></div>';
+    $("#DisplayVDO").html(str);  
+    document.getElementById('id01').style.display='block';
+  } else if(page==4) { // ดูภาพกิจกรรม
+    location.href = 'allteam.html';
+  } else if(page==5) { // เอกสารอบรม
+    location.href = 'rhpoint.html';
+  } else if(page==6) {
+    location.href = 'achievement.html';
+  }
+  //location.href = 'notwork.html';
+}
+
+
+function CloseAll() {
+  document.getElementById('id01').style.display='none';
+  document.getElementById('id02').style.display='none';
+  document.getElementById('id03').style.display='none';
+}
+
+function CloseVDO() {
+  var video = document.querySelector("#video");
+  video.pause();
+  video.currentTime = 0;
+  document.getElementById('id01').style.display='none';
+}
+

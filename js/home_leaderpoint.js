@@ -1,7 +1,6 @@
 var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
-var xLeague = "League Cup";
-var xClickMenu = "G";
-var xRatio = 18;
+var xLeague = "Champion League";
+var xClickMenu = 1;
 var Zone1 = "";
 var Zone2 = "";
 var Zone3 = "";
@@ -81,7 +80,7 @@ function CheckScore() {
   F3 = 0;
 
   dbBBDKickoff.where('League','==', xLeague)
-  .where('Round2','==', xClickMenu)
+  .where('Round2','==', parseInt(xClickMenu))
   .orderBy('TotalRank','asc')
   .orderBy('TotalPoint','desc')
   .get().then((snapshot)=> {
@@ -102,6 +101,7 @@ function CheckScore() {
         C1 = doc.data().Point_1;
         C2 = doc.data().Point_2;
         C3 = doc.data().Point_3;
+/*
       } else if(i==3) { 
         Zone4 = doc.data().EmpZone + "\n("+ doc.data().EmpRH +")";
         D1 = doc.data().Point_1;
@@ -112,7 +112,6 @@ function CheckScore() {
         E1 = doc.data().Point_1;
         E2 = doc.data().Point_2;
         E3 = doc.data().Point_3;
-/*
       } else if(i==5) { 
         Zone6 = doc.data().EmpZone + "\n("+ doc.data().EmpRH +")";
         F1 = doc.data().Point_1;
@@ -135,9 +134,7 @@ function drawStacked() {
     ['Zone', '% Achievement', '% Success Seller ', '% Product Mix'],
     [ Zone1, A1, A2, A3],
     [ Zone2, B1, B2, B3],
-    [ Zone3, C1, C2, C3],
-    [ Zone4, D1, D2, D3],
-    [ Zone5, E1, E2, E3]
+    [ Zone3, C1, C2, C3]
   ]);
   var options = {
       annotations: {textStyle: { fontName: 'ekachon-regular' }},
@@ -163,21 +160,21 @@ function drawStacked() {
 
 function SelectBox(x) {
   var xx = "";
-  if(x=="G") {
+  if(x==1) {
     xx = 1;
-  } else if(x=="H") { 
+  } else if(x==2) { 
     xx = 2;
-  } else if(x=="I") { 
+  } else if(x==3) { 
     xx = 3;
-  } else if(x=="J") { 
+  } else if(x=="D") { 
     xx = 4;
-  } else if(x=="K") { 
+  } else if(x=="E") { 
     xx = 5;
-  } else if(x=="L") { 
+  } else if(x=="F") { 
     xx = 6;
   }
   var i = 1;
-  for (i = 1; i < 7; i++) {
+  for (i = 1; i < 4; i++) {
     document.getElementById(i).classList.remove('box-menu2');
   }   
   if(x!="") {

@@ -1,7 +1,7 @@
 var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
-var xLeague = "League Cup";
-var xClickMenu = "G";
-var xRatio = 18;
+var xLeague = "Champion League";
+var xClickMenu = 1;
+var xRation = 18;
 
 $(document).ready(function() {
   if(sessionStorage.getItem("EmpID_Kickoff")==null) { location.href = "index.html"; }
@@ -55,144 +55,149 @@ function CheckScore() {
       if(i==0) {
         id0 = doc.id;
         n0 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a0 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a0 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
       } else if(i==1) { 
         id1 = doc.id;
         n1 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a1 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a1 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
       } else if(i==2) { 
         id2 = doc.id;
         n2 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a2 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a2 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
       } else if(i==3) { 
         id3 = doc.id;
         n3 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a3 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a3 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
       } else if(i==4) { 
         id4 = doc.id;
         n4 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a4 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a4 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
       } else if(i==5) { 
         id5 = doc.id;
         n5 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a5 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a5 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
       } else if(i==6) { 
         id6 = doc.id;
         n6 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a6 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a6 = ((doc.data().TotalPoint*100)/xRation).toFixed(0);
+/*
+      } else if(i==6) { 
+        id6 = doc.id;
+        n6 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
+        a6 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==7) { 
         id7 = doc.id;
         n7 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a7 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a7 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==8) { 
         id8 = doc.id;
         n8 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a8 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a8 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==9) { 
         id9 = doc.id;
         n9 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a9 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a9 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==10) { 
         id10 = doc.id;
         n10 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a10 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a10 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==11) { 
         id11 = doc.id;
         n11 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a11 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a11 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==12) { 
         id12 = doc.id;
         n12 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a12 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a12 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==13) { 
         id13 = doc.id;
         n13 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a13 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a13 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==14) { 
         id14 = doc.id;
         n14 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a14 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a14 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==15) { 
         id15 = doc.id;
         n15 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a15 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a15 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==16) { 
         id16 = doc.id;
         n16 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a16 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a16 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==17) { 
         id17 = doc.id;
         n17 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a17 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a17 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==18) { 
         id18 = doc.id;
         n18 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a18 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a18 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==19) { 
         id19 = doc.id;
         n19 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a19 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a19 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==20) { 
         id20 = doc.id;
         n20 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a20 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a20 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==21) { 
         id21 = doc.id;
         n21 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a21 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a21 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==22) { 
         id22 = doc.id;
         n22 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a22 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a22 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==23) { 
         id23 = doc.id;
         n23 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a23 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a23 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==24) { 
         id24 = doc.id;
         n24 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a24 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a24 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==25) { 
         id25 = doc.id;
         n25 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a25 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a25 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==26) { 
         id26 = doc.id;
         n26 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a26 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a26 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==27) { 
         id27 = doc.id;
         n27 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a27 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
-        /*
+        a27 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==28) { 
         id28 = doc.id;
         n28 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a28 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a28 = ((doc.data().TotalPoint*100)/15).toFixed(0);
+        /*
       } else if(i==29) { 
         id29 = doc.id;
         n29 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a29 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a29 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==30) { 
         id30 = doc.id;
         n30 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a30 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a30 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==31) { 
         id31 = doc.id;
         n31 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a31 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a31 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==32) { 
         id32 = doc.id;
         n32 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a32 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a32 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==33) { 
         id33 = doc.id;
         n33 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a33 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a33 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==34) { 
         id34 = doc.id;
         n34 = doc.data().Round2+"-"+doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a34 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a34 = ((doc.data().TotalPoint*100)/15).toFixed(0);
         */
       }
       i++;
@@ -204,9 +209,9 @@ function CheckScore() {
 
 function NewSet() {
   str = '';
-  str += "<div class='bar' onclick='OpenProfile(\""+ id0 +"\")'><div class='bar-info rsoc7' data-total="+ a0 +">"+ n0 +"";
+  str += "<div class='bar' onclick='OpenProfile(\""+ id0 +"\")'><div class='bar-info rsoc8' data-total="+ a0 +">"+ n0 +"";
   str += "<span class='percent' style='float: right;'>"+ a0 +"</span></div></div>";  
-  str += "<div class='bar' onclick='OpenProfile(\""+ id1 +"\")'><div class='bar-info rsoc2' data-total="+ a1 +">"+ n1 +"";
+  str += "<div class='bar' onclick='OpenProfile(\""+ id1 +"\")'><div class='bar-info rsoc7' data-total="+ a1 +">"+ n1 +"";
   str += "<span class='percent' style='float: right;'>"+ a1 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id2 +"\")'><div class='bar-info rsoc3' data-total="+ a2 +">"+ n2 +"";
   str += "<span class='percent' style='float: right;'>"+ a2 +"</span></div></div>";  
@@ -216,6 +221,9 @@ function NewSet() {
   str += "<span class='percent' style='float: right;'>"+ a4 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id5 +"\")'><div class='bar-info rsoc6' data-total="+ a5 +">"+ n5 +"";
   str += "<span class='percent' style='float: right;'>"+ a5 +"</span></div></div>";  
+  str += "<div class='bar' onclick='OpenProfile(\""+ id6 +"\")'><div class='bar-info rsoc2' data-total="+ a6 +">"+ n6 +"";
+  str += "<span class='percent' style='float: right;'>"+ a6 +"</span></div></div>";  
+/*
   str += "<div class='bar' onclick='OpenProfile(\""+ id6 +"\")'><div class='bar-info rsoc7' data-total="+ a6 +">"+ n6 +"";
   str += "<span class='percent' style='float: right;'>"+ a6 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id7 +"\")'><div class='bar-info rsoc8' data-total="+ a7 +">"+ n7 +"";
@@ -262,9 +270,9 @@ function NewSet() {
   str += "<span class='percent' style='float: right;'>"+ a26 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id27 +"\")'><div class='bar-info rsoc28' data-total="+ a27 +">"+ n27 +"";
   str += "<span class='percent' style='float: right;'>"+ a27 +"</span></div></div>";  
-/*
   str += "<div class='bar' onclick='OpenProfile(\""+ id28 +"\")'><div class='bar-info rsoc29' data-total="+ a28 +">"+ n28 +"";
   str += "<span class='percent' style='float: right;'>"+ a28 +"</span></div></div>";  
+/*
   str += "<div class='bar' onclick='OpenProfile(\""+ id29 +"\")'><div class='bar-info rsoc30' data-total="+ a29 +">"+ n29 +"";
   str += "<span class='percent' style='float: right;'>"+ a29 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id30 +"\")'><div class='bar-info rsoc31' data-total="+ a30 +">"+ n30 +"";

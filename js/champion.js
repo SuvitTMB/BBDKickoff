@@ -1,13 +1,13 @@
 var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
-var xLeague = "League Cup";
-var xClickMenu = "G";
+var xLeague = "Champion League";
+var xClickMenu = 1;
 var xRatio = 18;
 
-
-$(document).ready(function() {
+$(document).ready(function () {
   if(sessionStorage.getItem("EmpID_Kickoff")==null) { location.href = "index.html"; }
-  Connect_DB();
+  Connect_DB()
   document.getElementById(1).classList.add('box-menu2');
+
 });
 
 
@@ -26,7 +26,8 @@ function Connect_DB() {
   dbBBDKickoff = firebase.firestore().collection("BBD_Kickoff");
   dbLeagueMember = firebase.firestore().collection("BBD_LeagueMember");
   GetLinePicture();
-  CheckScore();
+  loadData();
+  //loadUser();
 }
 
 
@@ -46,121 +47,77 @@ function GetLinePicture() {
 }
 
 
-function CheckScore() {
+
+function loadData() {
   var i = 0;
+  var str = "";
+  str += '<table class="table" style="width:95%; margin:10px auto;"><tbody>';
   dbBBDKickoff.where('League','==', xLeague)
-  .where('Round2','==', xClickMenu)
-  .orderBy('TotalRank','asc')
-  .orderBy('TotalPoint','desc')
+  .where('Round2','==', parseInt(xClickMenu))
+  .orderBy('EmpRH','asc')
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
-      //console.log(doc.data().EmpZone+" === "+doc.data().TotalPoint);
-      if(i==0) {
-        id0 = doc.id;
-        n0 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a0 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
-      } else if(i==1) { 
-        id1 = doc.id;
-        n1 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a1 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
-      } else if(i==2) { 
-        id2 = doc.id;
-        n2 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a2 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
-      } else if(i==3) { 
-        id3 = doc.id;
-        n3 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a3 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
-      } else if(i==4) { 
-        id4 = doc.id;
-        n4 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a4 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
-      } else if(i==5) { 
-        id5 = doc.id;
-        n5 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a5 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+      const results = LinePictureArr.filter(obj => {return obj.EmpID === doc.data().EmpID;});
+      str += '<tr onclick="OpenProfile(\''+ doc.id +'\')" class="LinkProfile">';
+      if(results[0].EmpPicture!=undefined) { 
+        str += '<td class="td-center td-padding" style="width:18%;text-align:center;"><img src="'+results[0].EmpPicture+'" class="profile-team"></td>';
+      } else {
+        if(doc.data().EmpSex=="M") {
+          str += '<td class="td-center td-padding" style="width:18%;text-align:center;"><img src="./img/m.png" class="profile-team"></td>';
+        } else {
+          str += '<td class="td-center td-padding" style="width:18%;text-align:center;"><img src="./img/f.png" class="profile-team"></td>';
+        }
       }
+      str += '<td class="td-padding" style="width:83%;padding-top:5px;"><font color="#0056ff"><b>สนข. '+doc.data().EmpZone+' ('+doc.data().EmpRH+')</b></font>';
+      str += '<font color="#002d63"><br><b>คุณ'+doc.data().EmpName+'</b>';
+      str += '<div class="progress2" style="float: left;width:90%;margin-top:3px;"><div class="bar2" style="width:'+ ((doc.data().TotalPoint*100)/xRatio).toFixed(0) +'%"></div></div>';
+      str += '</td>';
+
+      str += '<td class="td-center td-padding" onclick="OpenProfile(\''+ doc.id +'\')"><div class="btn-t1" style="width:40px;margin-top:8px;font-size:9px;">View</div></td>';
+      str += '</tr>';
       i++;
-    });
-    NewSet();
+    }); 
+    str += '</tbody></table>';
+    $("#DisplayTeam").html(str);  
+    $("#DisplaySum").html("<div class='btn-t33' style='background-color: #94a9b3;border: solid #94a9b3 1px;margin-top:15px;'>ข้อมูลการแบ่งสายการแข่งขัน<br>สาย  "+ xClickMenu +" จำนวน "+ i +" สำนักงานเขตธุรกิจสาขา</div>");  
   });
 }
 
 
-
 function SelectBox(x) {
   var xx = "";
-  if(x=="G") {
+  if(x==1) {
     xx = 1;
-  } else if(x=="H") { 
+  } else if(x==2) { 
     xx = 2;
-  } else if(x=="I") { 
+  } else if(x==3) { 
     xx = 3;
-  } else if(x=="J") { 
+  } else if(x=="4") { 
     xx = 4;
-  } else if(x=="K") { 
+  } else if(x=="5") { 
     xx = 5;
-  } else if(x=="L") { 
+  } else if(x=="6") { 
     xx = 6;
   }
   var i = 1;
-  for (i = 1; i < 7; i++) {
+  for (i = 1; i < 4; i++) {
     document.getElementById(i).classList.remove('box-menu2');
   }   
   if(x!="") {
     //document.getElementById('loading').style.display='block';
     xClickMenu = x;
-    //console.log(xx);
+    console.log(xx);
     document.getElementById(xx).classList.add('box-menu2');
-    CheckScore()
+    loadData()
   }
 }
 
 
-function NewSet() {
-  str = '';
-  str += "<div class='bar' onclick='OpenProfile(\""+ id0 +"\")'><div class='bar-info rsoc7' data-total="+ a0 +">"+ n0 +"";
-  str += "<span class='percent' style='float: right;'>"+ a0 +"</span></div></div>";  
-  str += "<div class='bar' onclick='OpenProfile(\""+ id1 +"\")'><div class='bar-info rsoc2' data-total="+ a1 +">"+ n1 +"";
-  str += "<span class='percent' style='float: right;'>"+ a1 +"</span></div></div>";  
-  str += "<div class='bar' onclick='OpenProfile(\""+ id2 +"\")'><div class='bar-info rsoc3' data-total="+ a2 +">"+ n2 +"";
-  str += "<span class='percent' style='float: right;'>"+ a2 +"</span></div></div>";  
-  str += "<div class='bar' onclick='OpenProfile(\""+ id3 +"\")'><div class='bar-info rsoc4' data-total="+ a3 +">"+ n3 +"";
-  str += "<span class='percent' style='float: right;'>"+ a3 +"</span></div></div>";  
-  if(xClickMenu!="J" && xClickMenu!="K") {
-    str += "<div class='bar' onclick='OpenProfile(\""+ id4 +"\")'><div class='bar-info rsoc5' data-total="+ a4 +">"+ n4 +"";
-    str += "<span class='percent' style='float: right;'>"+ a4 +"</span></div></div>";  
-  }
-  /*
-  if(xClickMenu!="K") {
-    str += "<div class='bar' onclick='OpenProfile(\""+ id4 +"\")'><div class='bar-info rsoc5' data-total="+ a4 +">"+ n4 +"";
-    str += "<span class='percent' style='float: right;'>"+ a4 +"</span></div></div>";  
-  }
-  */
-  $('#Display').html(str);
 
-  function skillSet() {
-    $('.bar-info').each(function() {
-      total = $(this).data("total");
-      $(this).css("width", total + "%");
-    });
-    
-    $('.percent').each(function() {
-      var $this = $(this);
-      $({
-        Counter: 10
-      }).animate({
-        Counter: $this.text()
-      }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function() {
-          $this.text(Math.ceil(this.Counter) + "%");
-        }
-      });
-    });
-  };
-  setTimeout(skillSet, 1000);
+function OpenTeam(x) {
+  xClickMenu = x;
+  loadData()
+  //location.href = 'team.html?gid='+x;
 }
 
 
@@ -174,14 +131,14 @@ function OpenProfile(uid) {
       const results = LinePictureArr.filter(obj => {return obj.EmpID === doc.data().EmpID;});
       str += '<center>';
       if(results[0].EmpPicture!=undefined) { 
-        str += '<div><img src="'+results[0].EmpPicture+'" class="add-profile" style="margin:30px auto 0px auto;"></div>';
+        str += '<div><img src="'+results[0].EmpPicture+'" class="add-profile" style="margin:40px auto 0px auto;"></div>';
       } else {
         str += '<div style="text-align:center;"><img src="./img/m.png" class="add-profile"></div>';
       }
       str += '<div class="text-1">'+doc.data().EmpName+'</div>';
-      str += '<div class="text-2" style="margin-top:0px;"><b>เขตธุรกิจสาขา-'+doc.data().EmpZone+' ('+doc.data().EmpRH+')</b></div>';
+      str += '<div class="text-2" style="margin-top:0px;"><b>สำนักงานเขตธุรกิจสาขา-'+doc.data().EmpZone+' ('+doc.data().EmpRH+')</b></div>';
       str += '<div class="btn-t4">คะแนน -> '+doc.data().TotalPoint+' Point | อันดับ -> '+doc.data().TotalRank+'</div>';
-      str += '<div class="text-2">แข่งขันระดับ <b>'+ xLeague +'</b>  สาย <b>'+ doc.data().Round2+ '</b></div>';
+      str += '<div class="text-2">แข่งขันระดับ <b>'+ doc.data().League +'</b> สาย <b>'+ doc.data().Round2 +'</b></div>';
 
       str += '<div>';
 
@@ -236,6 +193,8 @@ function OpenProfile(uid) {
     document.getElementById("id01").style.display = "block";
   });
 }
+
+
 
 function CloseAll() {
   document.getElementById('id01').style.display='none';

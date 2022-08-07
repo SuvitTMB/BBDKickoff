@@ -1,6 +1,6 @@
 var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
-var xLeague = "League Cup";
-var xClickMenu = "G";
+var xLeague = "Champion League";
+var xClickMenu = 1;
 var xRatio = 18;
 
 
@@ -49,7 +49,7 @@ function GetLinePicture() {
 function CheckScore() {
   var i = 0;
   dbBBDKickoff.where('League','==', xLeague)
-  .where('Round2','==', xClickMenu)
+  .where('Round2','==', parseInt(xClickMenu))
   .orderBy('TotalRank','asc')
   .orderBy('TotalPoint','desc')
   .get().then((snapshot)=> {
@@ -67,18 +67,20 @@ function CheckScore() {
         id2 = doc.id;
         n2 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
         a2 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+/*
       } else if(i==3) { 
         id3 = doc.id;
         n3 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a3 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a3 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==4) { 
         id4 = doc.id;
         n4 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a4 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a4 = ((doc.data().TotalPoint*100)/15).toFixed(0);
       } else if(i==5) { 
         id5 = doc.id;
         n5 = doc.data().EmpZone+" ("+doc.data().EmpRH+")";
-        a5 = ((doc.data().TotalPoint*100)/xRatio).toFixed(0);
+        a5 = ((doc.data().TotalPoint*100)/15).toFixed(0);
+*/
       }
       i++;
     });
@@ -90,21 +92,21 @@ function CheckScore() {
 
 function SelectBox(x) {
   var xx = "";
-  if(x=="G") {
+  if(x==1) {
     xx = 1;
-  } else if(x=="H") { 
+  } else if(x==2) { 
     xx = 2;
-  } else if(x=="I") { 
+  } else if(x==3) { 
     xx = 3;
-  } else if(x=="J") { 
+  } else if(x=="D") { 
     xx = 4;
-  } else if(x=="K") { 
+  } else if(x=="E") { 
     xx = 5;
-  } else if(x=="L") { 
+  } else if(x=="F") { 
     xx = 6;
   }
   var i = 1;
-  for (i = 1; i < 7; i++) {
+  for (i = 1; i < 4; i++) {
     document.getElementById(i).classList.remove('box-menu2');
   }   
   if(x!="") {
@@ -123,20 +125,23 @@ function NewSet() {
   str += "<span class='percent' style='float: right;'>"+ a0 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id1 +"\")'><div class='bar-info rsoc2' data-total="+ a1 +">"+ n1 +"";
   str += "<span class='percent' style='float: right;'>"+ a1 +"</span></div></div>";  
+  if(xClickMenu==3) {
+    str += "<div class='bar' onclick='OpenProfile(\""+ id2 +"\")'><div class='bar-info rsoc4' data-total="+ a2 +">"+ n2 +"";
+    str += "<span class='percent' style='float: right;'>"+ a2 +"</span></div></div>";  
+  }
+
+/*
   str += "<div class='bar' onclick='OpenProfile(\""+ id2 +"\")'><div class='bar-info rsoc3' data-total="+ a2 +">"+ n2 +"";
   str += "<span class='percent' style='float: right;'>"+ a2 +"</span></div></div>";  
   str += "<div class='bar' onclick='OpenProfile(\""+ id3 +"\")'><div class='bar-info rsoc4' data-total="+ a3 +">"+ n3 +"";
   str += "<span class='percent' style='float: right;'>"+ a3 +"</span></div></div>";  
-  if(xClickMenu!="J" && xClickMenu!="K") {
+  if(xClickMenu!="F") {
     str += "<div class='bar' onclick='OpenProfile(\""+ id4 +"\")'><div class='bar-info rsoc5' data-total="+ a4 +">"+ n4 +"";
     str += "<span class='percent' style='float: right;'>"+ a4 +"</span></div></div>";  
+    //str += "<div class='bar' onclick='OpenProfile(\""+ id5 +"\")'><div class='bar-info rsoc6' data-total="+ a5 +">"+ n5 +"";
+    //str += "<span class='percent' style='float: right;'>"+ a5 +"</span></div></div>";  
   }
-  /*
-  if(xClickMenu!="K") {
-    str += "<div class='bar' onclick='OpenProfile(\""+ id4 +"\")'><div class='bar-info rsoc5' data-total="+ a4 +">"+ n4 +"";
-    str += "<span class='percent' style='float: right;'>"+ a4 +"</span></div></div>";  
-  }
-  */
+*/
   $('#Display').html(str);
 
   function skillSet() {
