@@ -30,6 +30,48 @@
     .w3-container, .w3-panel {
       padding:0px;
     }
+
+    li {
+      display: inline-block;
+      font-size: .8em;
+      list-style-type: none;
+      padding: 1em;
+      text-transform: uppercase;
+      text-align: center;
+      color:#f68b1f;
+    }
+
+    li span {
+      display: block;
+      color:#0056ff;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .emoji {
+      display: none;
+      padding: 1rem;
+    }
+
+    .emoji span {
+      font-size: 1rem;
+      padding: 0 .5rem;
+    }
+/*
+    @media all and (max-width: 768px) {
+      h1 {
+        font-size: calc(1.5rem * var(--smaller));
+      }
+      
+      li {
+        font-size: calc(1.125rem * var(--smaller));
+      }
+      
+      li span {
+        font-size: calc(3.375rem * var(--smaller));
+      }
+    }
+*/
   </style>
 </head>
 
@@ -47,23 +89,59 @@
 
   <main id="main">
     <div><img src="./img/intro.jpg" style="width:100%;margin-top:50px;max-height: 300px;"></div>
+
+
+    
+
+
     <div class="container">
-      <center><div class="btn-t33" style="margin-top:20px;">Welcome to<br>BBD Champion League 2022</div></center>
+      <center><div class="btn-t33" style="margin-top:20px;">การแข่งขันรอบที่ 2<br>BBD Champion League 2022</div></center>
+      <div style="margin:10px auto; width:100%; max-width: 400px;">
+        <div class="text-44" style="margin-top:0px;">เหลือเวลาการแข่งขันอีก</div>
+        <div class="clr" style="height: 6px;margin-top:-13px;"></div>
+        <div style="margin:auto;max-width:84%;width:100%;">
+          <div id="countdown">
+            <ul>
+              <li><span id="days"></span>days</li>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+              <li><span id="seconds"></span>Seconds</li>
+            </ul>
+          </div>
+          <div id="content" class="emoji">
+            <span>🥳</span>
+            <span>🎉</span>
+            <span>🎂</span>
+          </div>
+        </div>
+        <center>
+          <div style="margin-top:20px;">
+            <div style="width:49%;float: left;border-right: dashed #94a9b3 2px;">
+              <div style="height: 110px;"><img src="./img/Asset 1League.png" style="width:50%;"></div>
+              <div class="btn-t1" onclick="window.location.href='home_champion.html';">1. Champion League</div>
+              <div class="text-2" style="color:#f68b1f;">จำนวน 7 ทีม</div>
+            </div>
+            <div style="width:49%;float: left;">
+              <div style="height: 110px;"><img src="./img/Asset 2League.png" style="width:50%;"></div>
+              <div class="btn-t2" onclick="window.location.href='allteam.html';">2. League Cup</div>
+              <div class="text-2" style="color:#f68b1f;">จำนวน 28 ทีม</div>
+            </div>
+          </div>
+        </center>
 
-<!--
-      <div class="btn-t3">คุณและทีมของคุณ</div>
-      <div id="DisplayYourTeam" style="margin-top:8px;"></div>
--->
-
-
-      <div class="text-44" style="margin-top:8px;">คลิกเลือกเมนูที่ต้องการดูข้อมูล</div>
-      <div style="margin:0px auto; width:100%; max-width: 400px;">
         <!--<div class="btn-t3">ข้อมูลกิจกรรม</div>-->
+        <div class="clr"></div>
+        <div class="text-44" style="margin-top:25px;">คลิกเลือกเมนูที่ต้องการดูข้อมูล</div>
         <div class="clr" style="height: 6px;"></div>
+        <!--
         <div class="box-menu" onclick="OpenLink(4)"><img src="./img/Team-05.png" class="imgBall"><br>การแข่งขัน<br>ระดับ Zone</div>
         <div class="box-menu" onclick="OpenLink(5)"><img src="./img/Team-03.png" class="imgBall"><br>การแข่งขัน<br>ระดับ RH</div>
+      -->
+        <div class="box-menu" onclick="OpenLink(5)"><img src="./img/Team-03.png" class="imgBall"><br>การแข่งขัน<br>ระดับ RH</div>
         <div class="box-menu" onclick="OpenLink(6)"><img src="./img/Team-04.png" class="imgBall"><br>ภาพรวม<br>เป้า APE</div>
+        <!--
         <div class="box-menu" onclick="OpenLink(1)"><img src="./img/Team-01.png" class="imgBall"><br>เกี่ยวกับ<br>การแข่งขัน</div>
+        -->
         <div class="box-menu" onclick="OpenLink(2)"><img src="./img/Team-06.png" class="imgBall"><br>รางวัล<br>การแข่งขัน</div>
         <div class="box-menu" onclick="OpenLink(3)"><img src="./img/Team-02.png" class="imgBall"><br>VDO แนะนำ<br>การแข่งขัน</div>
 <!--
@@ -86,7 +164,7 @@
         <div id="DisplayRH"></div>
 
 
-        <center><div class='btn-t33' style='background-color: #94a9b3;border: solid #94a9b3 1px;margin-top:35px;'>การแข่งขันระดับ Zone Championship<br>10 ทีม ที่มีคะแนนรวมสูงสุด (เดือนกรกฎาคม)</div></center>
+        <center><div class='btn-t33' style='background-color: #94a9b3;border: solid #94a9b3 1px;margin-top:35px;'>การแข่งขันระดับ Zone Championship<br>10 ทีม ที่มีคะแนนรวมสูงสุด (เดือนสิงหาคม)</div></center>
         <div id="DisplayZone"></div>
       </div>
 
