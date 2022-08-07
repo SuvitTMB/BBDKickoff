@@ -263,6 +263,20 @@ h1, h2, h3, h4, h5, h6 {
   height:6px;
   background:#0056ff;
 }
+.bar3 {
+  position:relative;
+  float:left;
+  min-width:1%;
+  height:6px;
+  background:#fe0000;
+}
+.bar4 {
+  position:relative;
+  float:left;
+  min-width:1%;
+  height:6px;
+  background:#01d101;
+}
 
 /*
 .percent {
@@ -853,7 +867,7 @@ box-shadow: 0px 0px 6px 5px rgba(178,178,178,0.17);
   color:#0056ff;font-weight: 600;font-size: 12px; letter-spacing:2px;
 }
 .text-1 {
-  /*margin-top:20px;*/
+  margin-top:10px;
   font-size:12px;font-weight: 600;color:#0056ff;
 }
 .text-2 {
@@ -906,9 +920,45 @@ box-shadow: 0px 0px 6px 5px rgba(178,178,178,0.17);
   margin-top: 8px;
   border-radius: 5px;
 }
+
+.bar_background1 {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  background-color: #eee;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
 .bar_body {
   width:20%; text-align: center; font-size: 11px; color:#000000; float: left;
 }
 .bar_body1 {
   width:20%; text-align: center; font-size: 11px; color:#000000; float: left;
+  background-color: #f68b1f;padding:2px; border-radius: 5px; cursor: pointer;
+}
+.bar_body1:hover { 
+  background-color: #0056ff; color:#fff;
+}
+
+
+.accordion {
+  background: white;
+  border: 1px solid #EDEDED;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.accordionDrop {
+  text-align: left;
+  padding: 0px 20px;
+}
+
+::-webkit-details-marker { 
+  display: none;
 }
